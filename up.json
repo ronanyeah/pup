@@ -1,0 +1,9 @@
+{
+  "name": "pup",
+  "profile": "default",
+  "regions": ["eu-west-1"],
+  "hooks": {
+    "prebuild": ["npm install purescript pulp bower", "bower install"],
+    "build": "pulp build"
+  }
+}
