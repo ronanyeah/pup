@@ -9,9 +9,13 @@
   "dependencies": {
     "purescript-prelude": "^3.1.1",
     "purescript-console": "^3.0.0",
-    "purescript-node-http": "^4.2.0"
+    "purescript-node-http": "^4.2.0",
+    "purescript-node-process": "^5.0.0"
   },
   "devDependencies": {
     "purescript-psci-support": "^3.0.0"
+  },
+  "resolutions": {
+    "purescript-node-process": "^4.0.0"
   }
 }
