@@ -1,0 +1,11 @@
+{
+  "name": "pup",
+  "set": "psc-0.11.7",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "node-process",
+    "node-http",
+    "console",
+    "prelude"
+  ]
+}
